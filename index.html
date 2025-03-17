@@ -7,231 +7,282 @@
     <title>E-Health: Innovative health care solution</title>
     <script src="https://kit.fontawesome.com/150ba5d771.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- header section -->
     <header>
-        <div>
-            <h1>Welcome to E-health care solution</h1>
+        <div class="Horizontal topnav">
+            <h1 id="title" class="greytext">Welcome to E-health care solution</h1>
 
-            <div>
-                <p> <span><i class="fa-solid fa-phone"></i></span> +2347076372865</p>
-                <p> <span><i class="fa-solid fa-calendar"></i></span> 6:00am - 10:00pm (Mon - Fri)</p>
-                <p> <span><i class="fa-regular fa-envelope"></i></span> info@ehealth.com</p>
+            <div class="Horizontal greytext mobilehori">
+                <p class="contactinfo"> <span><i class="fa-solid fa-phone"></i></span> +2347076372865</p>
+                <p class="contactinfo"> <span><i class="fa-solid fa-calendar"></i></span> 6:00am - 10:00pm (Mon - Fri)
+                </p>
+                <p id="remove" class="contactinfo"> <span><i class="fa-regular fa-envelope"></i></span> info@ehealth.com
+                </p>
             </div>
         </div>
-        <nav>
-            <h3>E-Health</h3>
+        <nav class="Horizontal topnav">
+            <h3 class="brandlogo"><span>E</span>-Health</h3>
 
             <!-- nav menu item -->
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about us">About Us</a></li>
-                <li><a href="#our doctors">Doctors</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#appointment">Make an appointment</a></li>
+            <ul class="Horizontal">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#aboutus">About Us</a></li>
+                <li class="navItem"><a href="#our doctors">Doctors</a></li>
+                <li class="navItem"><a href="#news">News</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
+                <li class="navItem" id="app"><a href="#appointment">Make an appointment</a></li>
             </ul>
         </nav>
 
     </header>
 
     <!-- main section -->
+
     <main>
         <!-- Home section -->
         <section id="home">
-            <div>
-                <p>Best health care solution</p>
-                <p>Health at your Door step</p>
-                <button>Learn more</button>
+            <div class="homepage">
+                <p id="backgroundtxt1">Best health care solution</p>
+                <p id="backgroundtxt2">Health at your Door step</p>
+                <button id="learn-more-button">Learn more</button>
             </div>
         </section>
 
         <!-- About us section -->
-        <section id="about us">
+        <section class="Horizontal" id="aboutus">
             <!-- Left div -->
-            <div>
-                <p>Welcome to your Health Solution</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus mollitia deserunt cupiditate
-                    similique. Exercitationem hic sit, nemo debitis enim qui dicta maxime rerum praesentium fuga itaque,
-                    cupiditate quasi dolore officia.</p>
+            <div class="aboutuscontent">
+                <p id="aboutustxt1">Welcome to your <span>H</span>ealth Solution<br>centre</p>
+                <p id="aboutustxt2" class="greytext">
+                    we are committed to providing comprehensive, patient-centered healthcare for individuals and
+                    families. Our state-of-the-art facility is designed to ensure comfort, efficiency, and top-tier
+                    medical services tailored to your needs. <br><br> Our team of experienced professionals is dedicated
+                    to providing the highest quality care in a warm, welcoming environment. We are here to help you
+                    achieve optimal health and well-being.
+                </p>
 
-                <div>
-                    <img src="./images/author-image.jpg" alt="picture">
-                    <div>
-                        <p>Dr Neil Jackson</p>
-                        <p>General principal</p>
+                <div class="details">
+                    <img src="./images/author-image.jpg" alt="picture" id="passport">
+                    <div id="intro">
+                        <p id="nameside">Dr Neil Jackson</p>
+                        <p class="greytext">General principal</p>
                     </div>
 
                 </div>
             </div>
 
-            <!-- Right div -->
-            <div>
-                <img src="./images/about-bg.jpg" alt="A pretty Doctor">
-            </div>
 
         </section>
 
         <!-- Doctor section -->
         <section id="our doctors">
-            <h2>OUR DOCTORS</h2>
 
-            <div>
-                <div>
-                    <img src="./images/team-image1.jpg" alt="Doctor ">
+            <h2 id="doctorheading">OUR DOCTORS</h2>
+            <div class="Horizontal docbox">
+
+                <div id="docbox-img1">
+                    <div>
+                        <img src="./images/team-image1.jpg" alt="Doctor ">
+                    </div>
+                    <div>
+                        <h4 id="details2"> Nate Baston </h4>
+                        <p id="details3" class="greytext">General Principal</p>
+                        <hr class="greyline" />
+                        <p id="details4" class="greytext"> <span><i class="fa-solid fa-phone"></i></span>
+                            +23470708542865</p>
+
+                        <p id="details5" class="greytext"> <span><i class="fa-regular fa-envelope"></i></span>
+                            general@company.com</p>
+                    </div>
+
+
                 </div>
-                <div>
-                    <h4>Nate Baston </h4>
-                    <p>General Principal</p>
-                    <hr />
-                    <p> <span><i class="fa-solid fa-phone"></i></span> +23470708542865</p>
+                <div class="docbox-img2">
+                    <img src="./images/team-image2.jpg" alt="Doctor">
+                    <div>
+                        <h4 id="details6">Jason Stewart</h5>
+                            <p id="details7" class="greytext">Pregnancy</p>
+                            <hr class="greyline" />
+                            <p id="details8" class="greytext"> <span><i class="fa-solid fa-phone"></i></span>
+                                +2347078692865</p>
 
-                    <p> <span><i class="fa-regular fa-envelope"></i></span> general@company.com</p>
+                            <p id="details 9" class="greytext"> <span><i class="fa-regular fa-envelope"></i></span>
+                                pregnancy@company.com</p>
+                    </div>
                 </div>
 
+                <div class="docbox-img3">
+                    <img src="./images/team-image3.jpg" alt="Doctor">
 
-            </div>
-            <div>
-                <img src="./images/team-image2.jpg" alt="Doctor">
-                <div>
-                    <h4>Jason Stewart</h5>
-                        <p>Pregnancy</p>
-                        <hr />
-                        <p> <span><i class="fa-solid fa-phone"></i></span> +2347078692865</p>
+                    <div>
+                        <h4 id="detailsb1">Miasha Nakahara</h2>
+                            <p id="detailsb2" class="greytext">Cardiology</p>
+                            <hr class="greyline" />
+                            <p id="detailsb3" class="greytext"> <span><i class="fa-solid fa-phone"></i></span>
+                                +2347078167865</p>
 
-                        <p> <span><i class="fa-regular fa-envelope"></i></span> pregnancy@company.com</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="./images/team-image3.jpg" alt="Doctor">
-
-                <div>
-                    <h4>Miasha Nakahara</h2>
-                        <p>Cardiology</p>
-                        <hr />
-                        <p> <span><i class="fa-solid fa-phone"></i></span> +2347078167865</p>
-
-                        <p> <span><i class="fa-regular fa-envelope"></i></span> cardio@company.com</p>
+                            <p id="detailsb4" class="greytext"> <span><i class="fa-regular fa-envelope"></i></span>
+                                cardio@company.com</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- News section -->
         <section id="news">
-            <h2>LATEST NEWS</h2>
             <div>
-                <div>
-                    <img src="./images/news-image.jpg" alt="pressing laptop">
-                    <p>March 07, 2025</p>
-                    <h2>About Amazing Technology</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga labore ex sunt recusandae facere
-                        aperiam ipsum animi quibusdam, cupiditate maiores magni nostrum minima dicta quam voluptatem
-                        maxime libero mollitia hic?</p>
-                    <div>
-                        <img src="./images/author-image.jpg" alt="">
+                <h2 id="latestheading">Latest News</h2>
+            </div>
+            <div id="parentnews">
+
+                <!-- <div> container for the 3 boxes -->
+                <div class="firstbox">
+                    <img src="./images/news-image1.jpg " alt="hospital work" style="width: 470px; height: auto;"
+                        id="latestimg1">
+                    <p id="latestdate1" class="greytext">March 08, 2025</p>
+                    <h3 id="latestheader1">About Amazing<br>Technology</h3>
+                    <p id="latestpara1" class="greytext">Technology is revolutionizing life, making tasks
+                        faster,<br><br>smarter, and more efficient.</p> <br><br>
+                    <hr id="linebreak" class="greyline">
+                    <div class="details" id="detailsedit">
+                        <img src="./images/author-image.jpg" alt="" class="passport2" id="passport2edit">
                         <div>
-                            <h2>Jeremy Carlson</h2>
-                            <p>CEO/Founder</p>
+                            <h5 id="namehfiveedit">Jeremie Carlson</h5>
+                            <p class="greytext">CEO/Founder</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="secondbox">
+                    <img src="./images/news-image2.jpg" alt="" style="width: 460px; height: auto;" id="latestimg2">
+                    <p id="latestdate2" class="greytext">Febuary 20, 2025</p>
+                    <h3 id="latestheader2">Introducing a new<br>healing process</h3>
+                    <p id="latestpara2" class="greytext">Experience a breakthrough in healing—faster, gentler, and more
+                        effective.<br><br> A new path to recovery starts today! </p>
+                    <hr id="linebreak2" class="greyline">
+                    <div class="details">
+                        <img src="./images/author-image.jpg" alt="" class="passport2" id="passport2edit2">
+                        <div>
+                            <h5 id="namehfiveedit2">Jason Stewart</h5>
+                            <p class="greytext">General Director</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="./images/news-image2.jpg" alt="">
-                    <p>Febuary 22, 2025</p>
-                    <h2>Introducing a new healing process</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptate exercitationem
-                        officiis mollitia, sunt atque laborum nesciunt tempora possimus minima assumenda dignissimos
-                        architecto eius ex et ea nulla asperiores similique.</p>
-                    <div>
-                        <img src="./images/author-image.jpg" alt="">
-                    </div>
-                    <div>
-                        <h2>Jason Stewart</h2>
-                        <p>General Director</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="./images/news-image3.jpg" alt="">
-                    <p>January 03, 2025</p>
-                    <h2>Review Annual Medical Research</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum optio reiciendis tempore aut modi
-                        voluptatem maiores delectus. Quas blanditiis iure neque consequuntur ipsam? Molestiae, beatae
-                        quos? Odio natus quisquam quo!</p>
-                    <div>
-                        <img src="./images/author-image.jpg" alt="">
-                    </div>
-                    <div>
-                        <h4>Andrio Abero</h4>
-                        <p>Online Advertisement</p>
+                <div class="thirdbox">
+                    <img src="./images/news-image3.jpg" alt="" style="width: 470px; height: auto;" id="latestimg3">
+                    <p id="latestdate3" class="greytext">January 27, 2025</p>
+                    <h3 id="latestheader3">Review Annual Medical<br>Research</h3>
+                    <p id="latestpara3" class="greytext">Advancing healthcare through groundbreaking discoveries.
+                        This<br><br>year's research future possibilities in medicine.</p>
+                    <hr id="linebreak3" class="greyline">
+                    <div class="details">
+                        <img src="./images/author-image.jpg" alt="" class="passport2" id="passport2edit3">
+                        <div>
+                            <h5 id="namehfiveedit3">Andrio Abero</h5>
+                            <p class="greytext">Online Advertising</p>
+                        </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
         <!-- Appointment section -->
-        <section id="appointment">
+        <section id="appointment" class="Horizonta">
             <!-- left div -->
             <div>
-                <img src="./images/appointment-image.jpg" alt="making an appiontment">
+                <!-- <img id="appimg" src="./images/appointment-image.jpg" alt="making an appiontment" style="width: 700px; height: auto;"> -->
             </div>
             <!-- right div -->
-            <div>
-                <h2>Make an Appointment</h2>
+            <div id="appointmentheading">
+                <h2 id="firstapphead">Make an Appointment</h2>
                 <form action="#">
-                    <div>
+                    <div id="nameandemailcont">
                         <div>
-                            <label for="name">Name</label>
-                            <input type="text" placeholder="Full Name">
+                            <label id="nameonly" for="name">Name </label> <br>
+                            <input type="text" placeholder="Full Name" class="greytext" id="nameplaceholder">
                         </div>
                         <div>
-                            <label for="email">Email</label>
-                            <input type="text" placeholder="Your Email">
+                            <label id="emailonly" for="email">Email</label> <br>
+                            <input type="text" placeholder="Your Email" class="greytext" id="nameplaceholder">
                         </div>
                     </div>
-                    <div>
+                    <div id="nameandemailcont">
                         <div>
-                            <label for="Date">Select Date</label>
-                            <input type="date" placeholder="mm/dd/yyyy">
+                            <label for="Date">Select Date</label> <br>
+                            <input type="date" placeholder="mm/dd/yyyy" id="nameplaceholder" class="greytext">
                         </div>
+
                         <div>
-                            <label for="Dept">Select Department</label>
-                            <select name="Department">
-                                <option value="general consult">General Consult</option>
-                                <option value="general health">General Health</option>
+                            <label for="department">Select Department</label><br>
+                            <select name="department" id="department" class="greytext">
                                 <option value="pregnancy">Pregnancy</option>
-                                <option value="cardiology">Cardiology</option>
+                                <option value="cardiology">cardiology</option>
+                                <option value="">Eye department</option>
+                                <option value="general department">General department</option>
                             </select>
                         </div>
                     </div>
-                    <div>
-                        <label for="tel">Phone number</label>
-                        <input type="number" placeholder="phone">
+                    <div id="phonecont">
+                        <label for="number">Phone number</label>
+                        <input type="tel" placeholder="phone" class="phoneandsubmit">
+                    </div>
+                    <div id="additionalcont">
+                        <label for="messages">Additional Message</label><br>
+                        <textarea name="messages" class="phoneandsubmit" cols="12" rows="5"
+                            placeholder="Messages"></textarea>
                     </div>
                     <div>
-                        <label for="messages">Additional Message</label>
-                        <textarea name="messages" id="#" cols="12" rows="5" placeholder="Messages"></textarea>
+                        <input type="button" value="Submit Button" class="phoneandsubmit submitbutton">
                     </div>
-                    <div>
-                        <input type="button" value="Submit Button">
-                    </div>
-                    
-                    
+
+
                 </form>
-                
+
             </div>
         </section>
 
         <!-- Contact section -->
         <section>
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=230 herbert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google maps in website</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                        marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=230 herbert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                        href="https://embed-googlemap.com">embed google maps in website</a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        width: 100%;
+                        height: 400px;
+                    }
 
-            <div>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        width: 100%;
+                        height: 400px;
+                    }
+
+                    .gmap_iframe {
+                        height: 400px !important;
+                    }
+                </style>
+            </div>
+
+            <div class="contactinfobox">
                 <div>
                     <h2>Contact Info</h2>
-                    <p>For more Enquiries, you can reach out to us via phone or text</p>
+                    <p>Get in touch with us for inquiries, <br>support, or appointments. Call,<br> email, or visit us today!</p>
                     <div>
                         <p> <span><i class="fa-solid fa-phone"></i></span> +2347076372865</p>
                     </div>
@@ -258,7 +309,7 @@
                 </div>
                 <div>
                     <h2>Opening Hours</h2>
-                    <p>Monday - Friday  06:00 AM - 10:00 PM</p>
+                    <p>Monday - Friday 06:00 AM - 10:00 PM</p>
                     <p>Saturday 09:00 AM - 08:00 PM</p>
                     <p>Sunday Closed</p>
                     <div>
@@ -282,14 +333,14 @@
         <div>
             <p>Copyright <i class="fa-regular fa-copyright"></i> Your Company | Design: Tooplate</p>
             <nav>
-    
+
                 <!-- nav menu item -->
                 <ul>
                     <li><a href="#">Laboratory Tests</a></li>
                     <li><a href="#">Departments</a></li>
                     <li><a href="#">Insurance Policy</a></li>
-                    <li><a href="#">Careers</a></li>
-                    
+                    <li><a href="#">Career</a></li>
+
                 </ul>
             </nav>
         </div>

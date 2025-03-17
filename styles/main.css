@@ -1,0 +1,497 @@
+.Horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+ }
+
+.topnav {  
+    padding: 16px 68px 8px 68px;
+    border-bottom: grey 0.5px solid;
+} 
+
+.greytext {
+    font-size: 14px;
+    color: gray;
+    font-weight: 700; 
+}  
+
+.contactinfo { 
+    display: flex;
+    margin: 16px; 
+    padding-right: 28px; 
+    border-right: 2px solid lightgrey
+} 
+
+.contactinfo span {
+    color: rgb(107, 159, 30); 
+    padding: 0 8px;
+} 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif; 
+} 
+
+
+#remove { 
+    border: none !important; 
+} 
+
+
+.brandlogo span {
+    color: white;
+    background-color: rgb(107, 159, 30);
+    border: none;
+    font-weight: 800;
+    padding: 4px; 
+} 
+
+.navItem {
+    list-style: none;
+    padding: 16px 18px; 
+} 
+
+.navItem a { 
+    text-decoration: none;
+    color: black;
+    font-weight: 700; 
+} 
+
+.navItem a:hover {
+    background-color: rgb(107, 159, 30);
+    color: white; 
+} 
+
+#app {
+    background-color: rgb(107, 159, 30); 
+
+}
+
+#app a {
+    color: white; 
+
+} 
+
+#home {
+    background-image: url("../images/slider1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%; 
+} 
+
+.homepage { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column; 
+} 
+
+#backgroundtxt1 {
+    color: white; 
+    padding: 16px 32px;
+    border: none; 
+} 
+
+#backgroundtxt2 { 
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    font-size: 70px;
+    font-weight: 800;
+} 
+
+#learn-more-button { 
+    background-color: rgb(51, 101, 228);
+    color: white;
+    padding: 16px 32px;
+    border: none;
+}
+#aboutus {
+    background-image: url("../images/about-bg.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%; 
+}
+
+#aboutustxt1 {
+    color: black;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+#aboutustxt2 {
+    margin-top: 20px;
+    max-width: 700px;
+    word-wrap: break-word;
+    margin-left: 100px;
+}
+
+#aboutustxt1 span { 
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 800px;
+    padding: 1px 5px;
+    border-radius: 5px; 
+    height: 5px;
+}
+
+.details { 
+    display: flex; 
+    margin-top: 50px;
+}
+
+#passport { 
+    width: 10%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%; 
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+#intro {
+    margin-top: 40px;
+}
+
+#nameside {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.aboutuscontent {
+    margin-top: 10px;
+}
+
+#doctorheading {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.docbox {
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#docbox-img1 {
+    margin-left: 80px;
+}
+
+
+#details2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#details3 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+} 
+
+#details4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#details5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.docbox-img2 {
+    margin-top: -10px;
+}
+
+#details6 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#details7 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+} 
+
+#details8 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#details9 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#detailsb1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#detailsb2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+} 
+
+#detailsb3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#detailsb4 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.greyline {
+    border: 0.1px solid rgba(0, 0, 0, 0.2); 
+    
+}
+
+
+.passport2 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: fit-content;
+
+}
+
+#parentnews {
+    display: flex;            /* Aligns child divs horizontally */
+    justify-content: space-between;  /* Adds space between the divs */
+    width: 100%;              /* Ensures the container takes up the full width */
+    height: 70vh;
+    /* margin-left: 100px; */
+    align-items: center;
+}
+
+#latestheading { 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+
+#latestimg1 {
+    margin-left: 95px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 15px;
+
+}
+
+#latestimg2 { 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+}
+
+#latestimg3 { 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 14px;
+}
+
+#latestdate1 { 
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+#latestheader1 { 
+    margin-left: 95px;
+    margin-top: 20px;   
+}
+
+#latestpara1 { 
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#detailsedit {
+    margin-left: 95px;
+}
+
+#passport2edit { 
+    margin-top: -25px;
+}
+
+#namehfiveedit {
+    padding-bottom: 8px;
+    margin-top: -10px;
+}
+
+#linebreak {
+    margin-left: 95px;
+}
+
+#latestdate2 { 
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+* #latestheader2 { 
+    margin-top: 20px;
+}
+
+#latestpara2 {
+    margin-top: 25px;
+}
+
+#linebreak2 {
+    margin-top:40px;
+}
+
+#news {
+    background-color:rgb(253, 251, 251) ;
+}
+
+#secondcontainer {
+    margin-top: -5px;
+}
+
+#latestdate3 { 
+    margin-top: 25px;
+}
+
+#latestheader3 { 
+    margin-top: 20px;
+}
+
+#latestpara3 {
+    margin-top: 25px;
+    margin-right: 95px;
+}
+
+#linebreak3 {
+    margin-top:30px;
+    margin-right: 95px;
+}
+
+#passport2edit2 {
+    margin-top: -25px;
+}
+
+#namehfiveedit2 {
+    padding-bottom: 8px;
+    margin-top: -10px;
+}
+
+#passport2edit3 {
+    margin-top: -25px;
+}
+
+#namehfiveedit3 {
+    padding-bottom: 8px;
+    margin-top: -10px;
+}
+
+.firstbox {
+    /* margin-right: -100px; */
+    /* width: 50%; Adjusts the width of each card */
+    /* max-width: 400px; */
+}
+
+.secondbox {
+    margin-left: 150px;
+    margin-top: 4px;
+    margin-right: 50px;
+    position: relative;
+    right: 100px; /* Moves it to the left */
+    margin-bottom: px;
+}
+
+.thirdbox {
+    margin-left: 15px;
+    margin-right: 5px;
+    position: relative;
+    right: 100px; /* Moves it to the left */
+}
+
+ #appointmentheading {
+    width: 500px;
+    padding: 40px;
+    justify-content: center;
+    /* background-color: royalblue; */
+ }
+
+#nameplaceholder,select{
+    padding: 9px 15px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    margin: 8px 0px;
+    background-color: rgb(244, 239, 239);
+}
+#nameandemailcont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoneandsubmit {
+    padding: 9px 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    margin: 8px 0px;
+    background-color: rgb(244, 239, 239);
+}
+
+#selectdepart {
+    /* margin-right: 25px; */
+}
+
+#department {
+    /* padding: 9px 15px; */
+    margin: 8px 15px;
+}
+
+#firstapphead { 
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+
+#appointment {
+    background: url(../images/appointment-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:1365px;
+    height:580px;
+    background-position: left;
+    overflow: hidden;
+    justify-items: right;
+}
+
+.submitbutton {
+    background-color: green;
+    color: white;
+}
+
+.submitbutton:hover {
+    background-color: rgb(107, 159, 30);
+}
+
+.contactinfobox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
