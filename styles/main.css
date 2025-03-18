@@ -588,3 +588,8 @@
     color: grey;
     font-weight: 700; 
 }
+
+.laborat a:hover {
+    background-color: rgb(107, 159, 30);
+    color: white; 
+}
