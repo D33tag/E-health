@@ -74,6 +74,10 @@
 
 } 
 
+#app a:hover {
+    color: black; 
+}
+
 #home {
     background-image: url("../images/slider1.jpg");
     background-size: cover;
@@ -104,12 +108,17 @@
     font-weight: 800;
 } 
 
-#learn-more-button { 
+.learn-more-button { 
     background-color: rgb(51, 101, 228);
     color: white;
     padding: 16px 32px;
     border: none;
 }
+
+.learn-more-button:hover {
+    background-color: rgb(107, 159, 30);
+}
+
 #aboutus {
     background-image: url("../images/about-bg.jpg");
     background-size: cover;
@@ -346,7 +355,7 @@
     margin-bottom: 10px;
 }
 
-* #latestheader2 { 
+#latestheader2 { 
     margin-top: 20px;
 }
 
@@ -494,4 +503,88 @@
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.lastsection {
+    display: flex;
+    padding: 50px 150px 50px 50px;
+    margin-left: 50px;
+}
+
+.firstheaderinlast{
+    /* margin-left: 100px; */
+    /* margin-top: 100px; */
+    margin-bottom: 30px;
+}
+
+.firstimginlast {
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    width: 60px;
+    height: fit-content;
+}
+
+.secondcontainerinlast {
+    display: flex;
+}
+
+.secondboxinlast {
+    margin-left: 150px;
+    margin-right: 50px;
+    position: relative;
+    right: 100px; /* Moves it to the left */
+    margin-bottom: 5px;
+    down: 50px;
+
+}
+
+.firstboxphone {
+    padding: 20px 20px 20px 0px;
+}
+
+.firstboxphone span {
+    background-color: white;
+    color: black;
+}
+
+.amazingtechanddate {
+    margin-top: 15px;
+}
+
+#amazingtech {
+    padding-bottom: 5px;
+} 
+
+.newhealinganddate {
+    margin-bottom: 20px;
+}
+
+#facebookpart {
+    padding-right: 20px;
+}
+
+#twitterpart {
+    padding-right: 20px;
+}
+
+.copyrightpart {
+    display: flex;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+}
+.copyrightlists {
+    display: flex;
+    margin-left: 100px;
+    ;
+}
+
+.laborat {
+    list-style: none;
+    padding: 0px 18px; 
+}
+
+.laborat a { 
+    text-decoration: none;
+    color: grey;
+    font-weight: 700; 
 }
